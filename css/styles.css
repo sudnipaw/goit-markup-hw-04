@@ -101,6 +101,9 @@
   color: #757575;
   text-decoration: none;
 }
+.nav-phone:hover {
+  color: rgba(33, 150, 243, 1);
+}
 .motto {
   font-family: "Roboto";
   font-style: normal;
@@ -123,7 +126,11 @@
   height: 600px;
   left: 0px;
   top: 80px;
-  background-image: url(/images/backgroun.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/images/backgroun.jpg);
 }
 .button {
   font-family: "Roboto";
@@ -348,18 +355,53 @@
 }
 .team-member {
   width: 270px;
-  height: 368px;
+  height: 428px;
   text-align: center;
   background-color: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .img-team {
   width: 270px;
   height: 260px;
   height: auto;
   display: block;
+}
+.customers {
+  width: 1170px;
+  height: 184px;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-bottom: 94px;
+}
+.our-customers {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 94px;
+}
+.customers-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.customers-logo {
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
 }
 .container-footer {
   height: 252px;
@@ -398,6 +440,9 @@
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
+.nav-mail-footer:hover {
+  color: rgba(33, 150, 243, 1);
+}
 .mail-phone-footer {
   padding-top: 9px;
 }
@@ -411,6 +456,9 @@
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
+.nav-phone-footer:hover {
+  color: rgba(33, 150, 243, 1);
+}
 .adress-footer {
   font-family: Roboto;
   font-size: 14px;
@@ -420,5 +468,34 @@
   text-align: left;
   color: rgba(255, 255, 255, 1);
   padding-top: 20px;
-  padding-bottom: 9px;
+}
+.footer-socialmedia {
+  padding-top: 70px;
+  padding-left: 70px;
+}
+.footer-socialmedia-header {
+  position: absolute;
+  width: 113px;
+  height: 16px;
+  left: 531px;
+  top: 2751px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: black;
+}
+.footer-socialmedia-list {
+  display: flex;
+  gap: 10px;
+}
+.footer-socialmedia-logo {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  border-radius: 50%;
+  fill: red;
 }
