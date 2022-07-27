@@ -493,9 +493,11 @@
   gap: 10px;
 }
 .footer-socialmedia-logo {
+  /* list-style: none; */
   width: 40px;
   height: 40px;
   justify-content: center;
   border-radius: 50%;
+  border: 2px;
   fill: red;
 }
