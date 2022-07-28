@@ -528,7 +528,7 @@
   justify-content: center;
   border-radius: 50%;
   border: 2px;
-  fill: red;
+  color: #afb1b8;
 }
 .footer-socialmedia-logo:hover,
 .footer-socialmedia-logo:focus {
