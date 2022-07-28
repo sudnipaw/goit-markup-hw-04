@@ -80,10 +80,10 @@
   padding-right: 50px;
   margin-top: 25px;
 }
-.icon-footer {
+.icon-header {
   margin-right: 10px;
 }
-.icon-footer:hover {
+.icon-header:hover {
   fill: #2196f3;
 }
 .phone-mail {
