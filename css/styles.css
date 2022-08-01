@@ -328,6 +328,7 @@
   align-items: center;
   border-radius: 50%;
   gap: 10px;
+  fill: #afb1b8;
 }
 .team-socialmedia-logo:hover,
 .team-socialmedia-logo:focus {
