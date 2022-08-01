@@ -543,6 +543,7 @@
 }
 .footer-socialmedia-logo:hover,
 .footer-socialmedia-logo:focus {
-  fill: #2196f3;
+  fill: white;
+  background-color: #2196f3;
   cursor: pointer;
 }
