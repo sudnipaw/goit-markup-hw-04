@@ -542,6 +542,7 @@
   align-items: center;
   border-radius: 50%;
   border: 2px;
+  background-color: #afb1b8;
   fill: white;
 }
 .footer-socialmedia-logo:hover,
