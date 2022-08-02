@@ -522,6 +522,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: white;
+  padding-bottom: 20px;
 }
 .footer-socialmedia-list {
   display: flex;
