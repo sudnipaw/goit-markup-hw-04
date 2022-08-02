@@ -281,11 +281,10 @@
 }
 .portfolio-menu-container {
   width: 1200px;
-  left: 215px;
-  top: 174px;
   margin-top: 94px;
   margin-left: 215px;
-  padding-bottom: 94px;
+  margin-right: 215px;
+  margin-bottom: 94px;
 }
 .buttons-portfolio-menu {
   list-style: none;
